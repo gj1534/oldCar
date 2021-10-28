@@ -1,0 +1,712 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Made One</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="favicon.ico">
+
+        <!--Google Font link-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="assets/css/slick/slick.css"> 
+        <link rel="stylesheet" href="assets/css/slick/slick-theme.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/iconfont.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/bootsnav.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+
+        <!--Theme custom css -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!--Theme Responsive css-->
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
+    <body>
+
+
+        <!-- Preloader -->
+        <div id="loading" style="display: none;">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object" id="object_one"></div>
+                    <div class="object" id="object_two"></div>
+                    <div class="object" id="object_three"></div>
+                    <div class="object" id="object_four"></div>
+                </div>
+            </div>
+        </div><!--End off Preloader -->
+
+        <nav class="navbar navbar-default bootsnav navbar-fixed">
+            <!-- Start Top Search -->
+            <div class="top-search">
+                <div class="container">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                        <input type="text" class="form-control" placeholder="검색">
+                        <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+                    </div>
+                </div>
+            </div>
+            <!-- End Top Search -->
+
+
+            <div class="container"> 
+                <div class="attr-nav">
+                    <ul>
+                        <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div> 
+
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="#brand">
+                        <img src="assets/images/logo.png" class="logo" alt="">
+                        <!--<img src="assets/images/footer-logo.png" class="logo logo-scrolled" alt="">-->
+                    </a>
+
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- navbar menu -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="./index.html">홈</a></li>                    
+                        <li><a href="./registrationCar.html">매물등록</a></li>
+                        <li><a href="./carList.html">매물보기</a></li>
+                        <li><a href="./login.html">로그인</a></li>
+                        <li><a href="./signUp.html">회원가입</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div> 
+        </nav>
+
+        <section class="registration_home">
+            <div class="viewWarp">
+                <h2 class="m-bottom-30">2007 Ssangyong Rexton II 4WD/Sunroof/wheel good/clean</h2>
+                <div class="leftContent">
+                    <ul class="bxslider">
+                        <li><a href="#"><img src="assets/images/1.jpg" style="height: 500px; width: 100%;"></a></li>
+                        <li><a href="#"><img src="assets/images/11.jpg" style="height: 500px; width: 100%;"></a></li>
+                        <li><a href="#"><img src="assets/images/3.jpg" style="height: 500px; width: 100%;"></a></li>
+                    </ul>
+                    <label>안전장치</label>
+                    <table class="table table-bordered regi-table">
+                        <colgroup>
+                            <col style="width: 33.3%;">
+                            <col style="width: 33.3%;">
+                            <col style="width: 33.3%;">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">운전석에어백</label></li>
+                                        <li><input type="checkbox" name="colorArr" id="colWhite" value="C180"><label for="colWhite">커튼에어백</label></li>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">후방 감지 센서</label></li>
+                                        <li><input type="checkbox" name="colorArr" id="colWhite" value="C180"><label for="colWhite">잠김방지 브레이크 시스템 (ABS)</label></li>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">전자식 파워 스티어링 (EPS)</label></li>
+                                        <li><input type="checkbox" name="colorArr" id="colWhite" value="C180"><label for="colWhite">자동 긴급제동 시스템 (AEB)</label></li>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">스페어 타이어</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">조수석에어백</label></li>
+                                        <li><input type="checkbox" name="colorArr" id="colWhite" value="C180"><label for="colWhite">무릎 에어백</label></li>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">후방카메라</label></li>
+                                        <li><input type="checkbox" name="colorArr" id="colWhite" value="C180"><label for="colWhite">차체자세제어장치(ESP)</label></li>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">전자제어서스펜션 (ECS)</label></li>
+                                        <li><input type="checkbox" name="colorArr" id="colWhite" value="C180"><label for="colWhite">사각지대경고장치 (BSD)</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">사이드에어백</label></li>
+                                        <li><input type="checkbox" name="colorArr" id="colWhite" value="C180"><label for="colWhite">전방 감지 센서</label></li>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">서라운드 뷰</label></li>
+                                        <li><input type="checkbox" name="colorArr" id="colWhite" value="C180"><label for="colWhite">차동제한장치</label></li>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">차선이탈 경보 시스템 (LDWS)</label></li>
+                                        <li><input type="checkbox" name="colorArr" id="colWhite" value="C180"><label for="colWhite">타이어공기압감지시스템(TPMS)</label></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <label>외관</label>
+                    <table class="table table-bordered regi-table">
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 20%;">
+                            <col style="width: 20%;">
+                            <col style="width: 20%;">
+                            <col style="width: 20%;">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">제논헤드램프(HID)</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">썬루프</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">파노라마 썬루프</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">리어스포일러</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">루프랙</label></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <label>내장</label>
+                    <table class="table table-bordered regi-table">
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 20%;">
+                            <col style="width: 20%;">
+                            <col style="width: 20%;">
+                            <col style="width: 20%;">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">에어컨</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">풀오토에어컨</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">열선 시트</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">가죽시트</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">메모리시트</label></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">전동시트</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">통풍시트</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">파워 스티어링</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">핸들 열선</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">크루즈컨트롤</label></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">핸들 리모콘</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">네비게이션</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">라디오</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">CD 체인저</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">CD 플레이어</label></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">DVD 플레이어</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">USB 단자</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">블루투스</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">전동접이사이드미러</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">자동 슬라이드 도어</label></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">파워윈도우</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">전동 트렁크</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">스마트키</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><input type="checkbox" name="colorArr" id="colAll" value="all"><label for="colAll">버튼시동</label></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="rightContent">
+                    <h3 class="m-bottom-30" style="text-align: right;">판매가격 : 2,000만원</h3>
+                    <div class="m-l-15">
+                        <form>
+                            <table class="table table-bordered regi-table">
+                                <colgroup>
+                                    <col style="width: 25%;">
+                                    <col style="width: 35%;">
+                                    <col style="width: 25%;">
+                                    <col style="width: 35%;">
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            형태
+                                        </th>
+                                        <td colspan="3">
+                                            신품
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>매물종류</th>
+                                        <td colspan="3">
+                                            자동차
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>연식</th>
+                                        <td colspan="3">
+                                            연식
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>제조사</th>
+                                        <td colspan="3">
+                                            제조사
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>모델</th>
+                                        <td colspan="3">
+                                            모델
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>세부모델</th>
+                                        <td colspan="3">
+                                            이것은자동차다
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>등급</th>
+                                        <td colspan="3">
+                                            4WD, SUNROOF, S KEY, FULL OPTI
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>차종</th>
+                                        <td colspan="3">
+                                            SUV
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>차대번호</th>
+                                        <td colspan="3">
+                                            14루 6296
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>배기량</th>
+                                        <td>
+                                            500 CC
+                                        </td>
+                                        <th>승차가능인원</th>
+                                        <td>
+                                            5명
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>핸들</th>
+                                        <td>
+                                            LHD
+                                        </td>
+                                        <th>문개수</th>
+                                        <td>
+                                            4
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>변속기</th>
+                                        <td>
+                                            7
+                                        </td>
+                                        <th>외장컬러</th>
+                                        <td>
+                                            회색
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>연료종류</th>
+                                        <td>
+                                            휘발유
+                                        </td>
+                                        <th>구동방식</th>
+                                        <td>
+                                            바퀴
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>실린더갯수</th>
+                                        <td>
+                                            5개
+                                        </td>
+                                        <th>마력</th>
+                                        <td>
+                                            2000마력
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>엔진번호</th>
+                                        <td>
+                                            590706
+                                        </td>
+                                        <th>최초등록일</th>
+                                        <td>
+                                            2021.05.25
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>특이사항</th>
+                                        <td colspan="3">
+                                            여기다가 뭘 적을까요? ㅎㅎㅎㅎ<br>
+                                            여기다가 뭘 적을까요? ㅎㅎㅎㅎ<br>
+                                            여기다가 뭘 적을까요? ㅎㅎㅎㅎ<br>
+                                            여기다가 뭘 적을까요? ㅎㅎㅎㅎ<br>
+                                            여기다가 뭘 적을까요? ㅎㅎㅎㅎ<br>
+                                            여기다가 뭘 적을까요? ㅎㅎㅎㅎ<br>
+                                            여기다가 뭘 적을까요? ㅎㅎㅎㅎ
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+                            <table class="table table-bordered regi-table">
+                                <colgroup>
+                                    <col style="width: 23%;">
+                                    <col style="width: 35%;">
+                                    <col style="width: 23%;">
+                                    <col style="width: 35%;">
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <th colspan="4">하부 상태</th>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            부식정도
+                                        </th>
+                                        <td colspan="3">
+                                            25% 이하
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            구멍뚫림
+                                        </th>
+                                        <td colspan="3">
+                                            없음
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            떨어져 나감
+                                        </th>
+                                        <td colspan="3">
+                                            있음
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="4">작동 상태</th>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            브레이크
+                                        </th>
+                                        <td>
+                                            미작동
+                                        </td>
+                                        <th>
+                                            엔진
+                                        </th>
+                                        <td>
+                                            작동
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            히터
+                                        </th>
+                                        <td>
+                                            작동
+                                        </td>
+                                        <th>
+                                            변속기
+                                        </th>
+                                        <td>
+                                            미작동
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            윈도우
+                                        </th>
+                                        <td>
+                                            작동
+                                        </td>
+                                        <th>
+                                            에어컨
+                                        </th>
+                                        <td>
+                                            미작동
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            오디오
+                                        </th>
+                                        <td>
+                                            미작동
+                                        </td>
+                                        <th>
+                                            4륜작동
+                                        </th>
+                                        <td>
+                                            해당없음
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </form>
+                        <div style="text-align: right;">
+                            <button class="btn btn-primary">문의하기</button>
+                            <button class="btn btn-danger">상품삭제</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer id="contact" class="footer bg-black p-top-80">
+            <!--<div class="action-lage"></div>-->
+            <div class="container">
+                <div class="row">
+                    <div class="widget_area">
+                        <div class="col-xs-4">
+                            <div class="widget_item widget_about">
+                                <h5 class="text-white">About Us</h5>
+                                <p class="m-top-20">간단히 우리의 회사를 소개해 주세요. 김포시 위치한 회사 어쩌구 저쩌구....</p>
+                                <div class="widget_ab_item m-top-30">
+                                    <div class="item_icon"><i class="fa fa-location-arrow"></i></div>
+                                    <div class="widget_ab_item_text">
+                                        <h6 class="text-white">Location</h6>
+                                        <p>
+                                            회사위치가 어디일까요?
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="widget_ab_item m-top-30">
+                                    <div class="item_icon"><i class="fa fa-phone"></i></div>
+                                    <div class="widget_ab_item_text">
+                                        <h6 class="text-white">Phone :</h6>
+                                        <p>+1 2345 6789</p>
+                                    </div>
+                                </div>
+                                <div class="widget_ab_item m-top-30">
+                                    <div class="item_icon"><i class="fa fa-envelope-o"></i></div>
+                                    <div class="widget_ab_item_text">
+                                        <h6 class="text-white">Email Address :</h6>
+                                        <p>이메일@mail.com</p>
+                                    </div>
+                                </div>
+                            </div><!-- End off widget item -->
+                        </div><!-- End off col-xs-3 -->
+
+                        <div class="col-xs-4">
+                            <div class="widget_item widget_latest sm-m-top-50">
+                                <h5 class="text-white">Latest News</h5>
+                                <div class="widget_latst_item m-top-30">
+                                    <div class="item_icon"><img src="assets/images/ltst-img-1.jpg" alt="" /></div>
+                                    <div class="widget_latst_item_text">
+                                        <p>첫번째 소식</p>
+                                        <a href="">21<sup>th</sup> July 2016</a>
+                                    </div>
+                                </div>
+                                <div class="widget_latst_item m-top-30">
+                                    <div class="item_icon"><img src="assets/images/ltst-img-2.jpg" alt="" /></div>
+                                    <div class="widget_latst_item_text">
+                                        <p>두번째 소식</p>
+                                        <a href="">21<sup>th</sup> July 2016</a>
+                                    </div>
+                                </div>
+                                <div class="widget_latst_item m-top-30">
+                                    <div class="item_icon"><img src="assets/images/ltst-img-3.jpg" alt="" /></div>
+                                    <div class="widget_latst_item_text">
+                                        <p>세번째 소식</p>
+                                        <a href="">21<sup>th</sup> July 2016</a>
+                                    </div>
+                                </div>
+                            </div><!-- End off widget item -->
+                        </div><!-- End off col-xs-3 -->
+
+
+                        <div class="col-xs-4">
+                            <div class="widget_item widget_newsletter sm-m-top-50">
+                                <div class="widget_brand m-top-40">
+                                    <a href="" class="text-uppercase">회사 로고</a>
+                                </div>
+                                <ul class="list-inline m-top-20">
+                                    <li>-  <a href=""><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href=""><i class="fa fa-behance"></i></a></li>
+                                    <li><a href=""><i class="fa fa-dribbble"></i></a>  - </li>
+                                </ul>
+
+                            </div><!-- End off widget item -->
+                        </div><!-- End off col-xs-3 -->
+                    </div>
+                </div>
+            </div>
+            <div class="main_footer fix bg-mega text-center p-top-40 p-bottom-30 m-top-80">
+                <div class="col-xs-12">
+                    <p class="wow fadeInRight" data-wow-duration="1s">
+                        Made with 
+                        <i class="fa fa-heart"></i>
+                        by 
+                        <a target="_blank" href="http://bootstrapthemes.co">HeoSeongTae</a> 
+                        2021. All Rights Reserved
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JS includes -->
+
+        <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.js"></script>
+        <script src="assets/js/jquery.easing.1.3.js"></script>
+        <script src="assets/css/slick/slick.js"></script>
+        <script src="assets/css/slick/slick.min.js"></script>
+        <script src="assets/js/jquery.collapse.js"></script>
+        <script src="assets/js/bootsnav.js"></script>
+
+
+
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/main.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                $('.bxslider').bxSlider({ // 클래스명 주의!
+                    mode: 'fade', // 슬라이드 모드 ('fade', 'horizontal', 'vertical' 이 있음)
+                    pager: false, // 페이지 표시 보여짐
+                    slideWidth: 840
+                });
+            });
+
+        </script>
+
+    </body>
+</html>
